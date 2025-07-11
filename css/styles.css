@@ -21,7 +21,7 @@
 .primary-color{
     color: #4E47FF;
 }
-/* header styles */
+/* header section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ nav h1{
     /* background-repeat: no-repeat; */
     border: 1px solid tomato;
 }
-/* action section starts */
+/* action section */
 .action-banner{
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ nav h1{
     height: 328px;
     border-radius: 48px;
 }
-/* user data */
+/* user data section*/
 .user-data{
     max-width: 1140px;
     height: 306px;
@@ -110,4 +110,62 @@ nav h1{
     margin: 0 auto;
     text-align: center;
     margin-top: -5px;
+}
+/* user feedback section */
+.user-feedback{
+    max-width: 1140px;
+    margin: 116px 141px;
+    border: 1px solid tomato;
+}
+.user-feedback h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.user-feedback-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.user-feedback-card-content{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
+    padding: 24px;
+    /* border: 1px solid tomato; */
+}
+.card-title-description h4{
+    color: rgba(30, 30, 30, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.card-title-description p{
+    color: rgba(30, 30, 30, 1);
+    font-size: 16px;
+    margin-top: -20px;
+}
+.card-user{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.card-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-right: 12px;
+}
+.card-user-content h4{
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+.card-user-content p{
+    color: rgba(179, 179, 179, 1);
+    font-size: 14px;
 }
