@@ -16,7 +16,7 @@
     font-size: 16px;
     font-weight: 700;
     padding: 12px 36px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .primary-color{
     color: #4E47FF;
@@ -36,15 +36,78 @@ nav h1{
     max-width: 950px;
     text-align: center;
     margin: 150px 267.5px 150px 267.5px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .header-content h1{
     font-size: 60px;
     font-weight: 700;
-    color: #252432;
+    color: rgba(37, 36, 50, 1);
 }
 .header-background{
     background-image: url(../assets/Hero-bg.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     border: 1px solid tomato;
+}
+/* action section starts */
+.action-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 116px 141px;
+    border: 1px solid tomato;
+}
+.action-content{
+    max-width: 517px;
+}
+.action-content h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 23px;
+}
+.action-content p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* user data */
+.user-data{
+    max-width: 1140px;
+    height: 306px;
+    margin: 116px 141px;
+    background-color: rgba(78, 71, 255, 0.17);
+    border-radius: 24px;
+    border: 1px solid tomato;
+}
+.user-data h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    padding-top: 10px;
+    /* border: 1px solid tomato; */
+}
+.user-data-container{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    /* border: 1px solid tomato; */
+}
+.user-data-item h3{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.user-data-item p{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -5px;
 }
