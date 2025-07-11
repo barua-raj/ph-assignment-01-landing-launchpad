@@ -48,6 +48,10 @@ nav h1{
     /* background-repeat: no-repeat; */
     border: 1px solid tomato;
 }
+/* main */
+.main-background{
+    /* color: rgba(245, 248, 255, 1); */
+}
 /* action section */
 .action-banner{
     display: flex;
@@ -168,4 +172,58 @@ nav h1{
 .card-user-content p{
     color: rgba(179, 179, 179, 1);
     font-size: 14px;
+}
+/* contact section */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 10px; */
+    max-width: 1140px;
+    margin: 116px 141px;
+    border: 1px solid tomato;
+}
+.contact h1{
+    color: #000000;
+    font-size: 97px;
+    font-weight: 700;
+    padding-right: 70px;
+}
+.contact-form{
+    width: 700px;
+}
+.contact-form label{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-form input{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 98%;
+    padding: 12px 4px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+}
+.contact-form input::placeholder{
+    padding: 20px;
+}
+.contact-form textarea{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 91%;
+    margin-top: 5px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+}
+#message{
+    padding: 20px;
+}
+.submit-button{
+    width: 100%;
+    padding: 19px 101px;
+    margin-top: 5px;
 }
