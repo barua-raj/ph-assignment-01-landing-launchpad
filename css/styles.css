@@ -14,8 +14,9 @@
     border: none;
     border-radius: 10px;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     padding: 12px 36px;
+    border: 1px solid tomato;
 }
 .primary-color{
     color: #4E47FF;
@@ -25,27 +26,25 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin: 0px 150px;
 }
 nav h1{
     font-size: 34px;
     font-weight: 900;
 }
 .header-content{
-    max-width: 905px;
-    margin: 0 auto;
+    max-width: 950px;
     text-align: center;
+    margin: 150px 267.5px 150px 267.5px;
+    border: 1px solid tomato;
 }
 .header-content h1{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     color: #252432;
 }
 .header-background{
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
-}
-.header-content{
-    margin: 309px 267.5px 152px 267.5px;
+    border: 1px solid tomato;
 }
