@@ -7,6 +7,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.body-background{
+    background-color: #F5F8FF;
+}
 /* shared styles */
 .btn-all{
     color: #FFFFFF;
@@ -16,7 +19,13 @@
     font-size: 16px;
     font-weight: 700;
     padding: 12px 36px;
-    /* border: 1px solid tomato; */
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.btn-all:hover {
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
 }
 .primary-color{
     color: #4E47FF;
@@ -46,11 +55,7 @@ nav h1{
 .header-background{
     background-image: url(../assets/Hero-bg.png);
     /* background-repeat: no-repeat; */
-    border: 1px solid tomato;
-}
-/* main */
-.main-background{
-    /* color: rgba(245, 248, 255, 1); */
+    /* border: 1px solid tomato; */
 }
 /* action section */
 .action-banner{
@@ -59,7 +64,7 @@ nav h1{
     align-items: center;
     max-width: 1140px;
     margin: 116px 141px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .action-content{
     max-width: 517px;
@@ -87,14 +92,14 @@ nav h1{
     margin: 116px 141px;
     background-color: rgba(78, 71, 255, 0.17);
     border-radius: 24px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .user-data h1{
     text-align: center;
     font-size: 38px;
     font-weight: 700;
     color: rgba(37, 36, 50, 1);
-    padding-top: 10px;
+    padding-top: 30px;
     /* border: 1px solid tomato; */
 }
 .user-data-container{
@@ -119,7 +124,7 @@ nav h1{
 .user-feedback{
     max-width: 1140px;
     margin: 116px 141px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .user-feedback h1{
     font-size: 42px;
@@ -178,10 +183,9 @@ nav h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* gap: 10px; */
     max-width: 1140px;
     margin: 116px 141px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .contact h1{
     color: #000000;
@@ -215,7 +219,6 @@ nav h1{
     font-size: 20px;
     width: 91%;
     margin-top: 5px;
-    /* padding: 10px; */
     border-radius: 10px;
     border: 1px solid rgba(214, 221, 237, 1);
 }
@@ -226,4 +229,30 @@ nav h1{
     width: 100%;
     padding: 19px 101px;
     margin-top: 5px;
+}
+/* footer section */
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    /* border: 1px solid tomato; */
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+footer p{
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+    margin-top: -70px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+}
+footer li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+    margin-right: 48px;
 }
