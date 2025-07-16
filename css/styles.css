@@ -44,7 +44,7 @@ nav h1{
 .header-content{
     max-width: 950px;
     text-align: center;
-    margin: 150px 267.5px 150px 267.5px;
+    padding: 150px 267.5px 150px 267.5px;
     /* border: 1px solid tomato; */
 }
 .header-content h1{
